@@ -9,7 +9,7 @@ Este repositório contém exercícios simples para praticar **Listas Encadeadas 
 Percorre a lista e imprime os valores no formato:
 
 ```
-3 -> 4 -> 5 -> 6 ->
+5 -> 4 -> 20 -> 30 -> 7
 ```
 Lista Completa:
 ````

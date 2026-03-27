@@ -19,6 +19,12 @@ n3 = ListNode(20)
 n4 = ListNode(30)
 n5 = ListNode(7)
 ````
+Lógica usada:
+```
+while current:
+    print(current.val, end=' ')
+    current = current.next
+```
 
 ---
 
@@ -27,7 +33,23 @@ n5 = ListNode(7)
 Percorre a lista para encontrar:
 
 * Maior valor
+
+Lógica usada: 
+```
+while current:
+    if maior < current.val:
+        maior = current.val
+    print(current.val, end=' -> ')
+```
+    
 * Menor valor
+
+Lógica usada:
+```
+if menor > current.val:
+        menor = current.val
+    current = current.next
+```
 
 Lista Completa:
 ```

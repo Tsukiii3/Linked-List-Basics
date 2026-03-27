@@ -51,7 +51,32 @@ O menor valor da lista é 3
 Separa os valores da lista em:
 
 * Números pares
+
+Lógica usada:
+````
+while current:
+    if current.val % 2 == 0:
+        print(current.val, end=' -> ')
+    current = current.next
+````
+
 * Números ímpares
+
+Lógica usada:
+```
+while current:
+    if current.val % 2 != 0:
+        print(current.val, end=' -> ')
+    current = current.next
+```
+
+Lista Completa:
+````
+n1 = ListNode(5)
+n2 = ListNode(3)
+n3 = ListNode(25)
+n4 = ListNode(8)
+````
 
 ---
 

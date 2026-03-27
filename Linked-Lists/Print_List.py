@@ -19,6 +19,5 @@ head = n1
 current = head
 
 while current:
-    if current.val > 7:
-     print(current.val, end=' ')
+    print(current.val, end=' ')
     current = current.next

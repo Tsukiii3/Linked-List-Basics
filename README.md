@@ -90,7 +90,29 @@ Exemplo:
 Antes: 5 -> 3 -> 25 -> 8  
 Depois: 8 -> 25 -> 3 -> 5
 ```
+Lista Completa:
+```
+n1 = ListNode(5)
+n2 = ListNode(3)
+n3 = ListNode(25)
+n4 = ListNode(8)
+```
+Lógica usada: 
+```
+while current:
+    next_node = current.next
+    current.next = prev
+    prev = current
+    current = next_node
 
+head = prev
+
+current = head
+
+while current:
+    print(current.val, end=' -> ')
+    current = current.next
+```
 ---
 
 ## 🧠 Estrutura utilizada

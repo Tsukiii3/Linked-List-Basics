@@ -11,6 +11,14 @@ Percorre a lista e imprime os valores no formato:
 ```
 3 -> 4 -> 5 -> 6 ->
 ```
+Lista Completa:
+````
+n1 = ListNode(5)
+n2 = ListNode(4)
+n3 = ListNode(20)
+n4 = ListNode(30)
+n5 = ListNode(7)
+````
 
 ---
 

@@ -21,6 +21,14 @@ Percorre a lista para encontrar:
 * Maior valor
 * Menor valor
 
+Lista Completa:
+```
+n1 = ListNode(5)
+n2 = ListNode(3)
+n3 = ListNode(25)
+n4 = ListNode(8)
+```
+
 Exemplo de saída:
 
 ```
